@@ -1,0 +1,147 @@
+﻿<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentReader>
+            <FlowDocument>
+                <Paragraph TextAlignment="Center" FontSize="15">
+
+                    Сырники
+                    <Hyperlink NavigateUri="https://www.gastronom.ru/recipe/4900/syrniki">Домашние</Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                <Floater Width="250" HorizontalAlignment="Stretch" Margin="5" Padding="5">
+                    <BlockUIContainer>
+                        <Image Source="Data/сырники.jpg"/>
+                    </BlockUIContainer>
+                </Floater>
+                </Paragraph>
+                <Paragraph>
+                    Блюдо по-особому теплое, вызывающее самые приятные ассоциации.
+                    Некоторые спрашивают, почему их называют именно так, ведь главный ингредиент блюда вовсе не сыр, а творог.
+                    Дело в том, что хорошо знакомое нам название этого кисломолочного продукта получилось только в XVIII веке. 
+                    До этого же времени в России творог называли просто «сыр», а блюда из него — «сырными» (в старых книгах, например, пасха именуется именно «сырной»).
+                    Кстати, толстые творожные оладушки (то есть домашние сырники) готовили в нашей стране издавна: например, их подавали на масленицу наряду с пышными дрожжевыми блинами или тонкими блинчиками.
+                </Paragraph>
+                <List MarkerStyle="Square">
+                    <ListItem>
+                        <Paragraph>
+                            <Run Foreground="Red"> Количество калорий - 249,1 ккал</Run>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run Foreground="Red">Белки - 10,6 г</Run>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run Foreground="Red">Жиры - 16,4 г</Run>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                    <Paragraph>
+                            <Run Foreground="Red">Углеводы - 14,4 г</Run>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="0,5*"/>
+                        <TableColumn Width="5*"/>
+                        <TableColumn Width="10*"/>
+                         </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Шаг
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Название шага
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    1
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Приготовление теста для домашних сырников
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5"> 
+                                    Для этого творог протрите через частое сито в миску. 
+                                    Если творог слишком влажный, откиньте его на марлю, сложенную вчетверо, и отожмите.
+                                    В миску с творогом добавьте обычный и ванильный сахар, а также соль.
+                                    Перемешайте.
+                                    В творожную массу всыпьте муку. 
+                                    Перемешивайте лопаточкой до получения теста однородной гладкой консистенции. 
+                                    Миску с тестом для сырников уберите на 15 минут в холодильник.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    2
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Формирование теста
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Стол присыпьте мукой. 
+                                    Выложите творожное тесто для домашних сырников и сформируйте из него толстую колбаску диаметром примерно 5 см. 
+                                    Если муку недостаточно, добавьте еще немного и перемешайте.
+                                    Получившуюся «колбаску» нарежьте кружочками толщиной не более 1,5 см. 
+                                    Каждый обваляйте в муке и оставьте на столе, присыпанном мукой, до использования.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    3
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Жарка сырников
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    В большой сковороде диаметром 24-26 см хорошо нагрейте растительное масло. 
+                                    Выложите в нее сырники и жарьте по 2 минуты с каждой стороны до румяной корочки.
+                                    Сковороду с домашними сырниками накройте крышкой и держите на слабом огне 3 минуты.
+                                    На стол подайте горячими, дополнив сметаной, сгущенным молоком, вареньем или джемом.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentReader>
+
+    </Grid>
+</Window>
